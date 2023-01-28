@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import GetStarted from './pages/getstarted.js'
+import Navigation from './shared/navbar.js';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <GetStarted />
+    <App />
   </React.StrictMode>
 );
 
