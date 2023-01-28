@@ -1,5 +1,6 @@
-/*
-function getStarted () {
+import React from 'react';
+
+function GetStarted () {
     return (
         <div>
             <div>home</div>
@@ -9,4 +10,5 @@ function getStarted () {
         </div>
     );
 }
-*/
+
+export default GetStarted;
