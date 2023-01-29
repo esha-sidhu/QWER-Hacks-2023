@@ -4,7 +4,10 @@ import "../styles/resources.css"
 function Resources() {
     return (
         <div>
-            <br /> <br /> <br /> <br />
+            <div className="header">
+                <img src={require("../images/resources_background.jpg")} alt="Plant header" width="100%" height="auto">
+                </img>
+            </div>
             <center><h1> Resources page </h1>
             <p> Sustainable Farming: </p>
             <a target="_blank" href="https://www.active.com/nutrition/articles/how-to-start-a-sustainable-home-garden-2348107" className="button">Home Farming</a> <br></br>
