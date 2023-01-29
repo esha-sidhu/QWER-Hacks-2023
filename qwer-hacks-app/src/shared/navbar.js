@@ -21,7 +21,6 @@ function Navigation() {
         </ul>
       </div>
     </nav>
-    <br/> <br/> <br/>
     </div>
   );
 }
