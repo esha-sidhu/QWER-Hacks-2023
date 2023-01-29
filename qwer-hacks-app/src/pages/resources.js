@@ -19,13 +19,13 @@ function Resources() {
         <div>
             <center><h1> Resources page </h1>
             <p> Sustainable Farming: </p>
-            <a href="https://www.active.com/nutrition/articles/how-to-start-a-sustainable-home-garden-2348107" class="button">Home Farming</a> <br/>
-            <a href="https://www.active.com/nutrition/articles/how-to-start-a-sustainable-home-garden-2348107" class="button"> Community Farming</a>
+            <a target="_blank" href="https://www.active.com/nutrition/articles/how-to-start-a-sustainable-home-garden-2348107" class="button">Home Farming</a> <br/>
+            <a target="_blank" href="https://pulitzercenter.org/stories/how-start-sustainable-farm-project-your-community" class="button"> Community Farming</a>
             <p> Find Local Food: </p>
-            <a href="https://www.active.com/nutrition/articles/how-to-start-a-sustainable-home-garden-2348107" class="button"> Finder and Seller Tool</a><br />
-            <a href="https://www.active.com/nutrition/articles/how-to-start-a-sustainable-home-garden-2348107" class="button"> National Guide to Local Food</a>
+            <a target="_blank" href="https://findlocalfood.com/" class="button"> Finder and Seller Tool</a><br />
+            <a target="_blank" href="https://sustainableagriculture.net/blog/national-guide-to-finding-local-food/" class="button"> National Guide to Local Food</a>
             <p> Find Food Banks: </p>
-                <a href="https://www.feedingamerica.org/find-your-local-foodbank" class="button">Finder Tool</a>
+            <a target="_blank" href="https://www.feedingamerica.org/find-your-local-foodbank" class="button">Finder Tool</a>
             </center>
         </div >
     );
