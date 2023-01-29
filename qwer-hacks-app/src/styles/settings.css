@@ -1,0 +1,23 @@
+html label {
+    display: block;
+    margin-left: 50px;
+    font-family: Lato;
+    font-weight: 400;
+    }
+    
+html  input {
+    width: 30px;
+    margin-left: 50px;
+    }
+
+html .header{
+    margin-top:0;
+
+}
+
+html  button {
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    }

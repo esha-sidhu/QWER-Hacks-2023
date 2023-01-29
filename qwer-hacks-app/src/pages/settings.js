@@ -1,16 +1,23 @@
 import React from 'react';
 import "../styles/main.css";
+import "../styles/settings.css";
 
 function Settings () {
     return (
+        
         <div>
-            <h1> Settings page </h1>
+            <div class="header">
+            <img src={require("../images/plant-header.png")} alt="Plant header" width="100%" height="300">
+            </img>
+            </div>
+
+            <h1> Get To Know You:  </h1>
             
 
             <form id="form1">
             <section form-1>
 
-            <h2>&#9829;  What best describes you?</h2>
+            <h2>&#9829;  What best describes your gardening level?</h2>
             <label for="var_newbie"><input type="radio" name="role" id="var_newbie" />Newbie!</label>
             <label for="var_beginner"><input type="radio" name="role" id="var_beginner" />Beginner</label>
             <label for="var_pro"><input type="radio" name="role" id="var_pro" />Gardening Pro</label>
@@ -30,10 +37,15 @@ function Settings () {
             <label for="pet_y"><input type="radio" name="pet" id="pet_y" />Yes</label>
             <label for="pet_n"><input type="radio" name="pet" id="pet_n" />No</label>
 
-            <h2>&#9829;  What type of soil do you have? (use your best estimate:) </h2>
+            <h2>&#9829;  What type of soil do you have? (use your best estimate) </h2>
             <label for="soil_gravelly"><input type="radio" name="soil" id="soil_gravelly" />Gravelly</label>
             <label for="soil_sandy"><input type="radio" name="soil" id="soil_sandy" />Sandy</label>
             <label for="soil_sticky"><input type="radio" name="soil" id="soil_sticky" />Sticky</label>
+
+            <h2>&#9829;  What is the temperature like? </h2>
+            <label for="temp_l"><input type="radio" name="temp" id="temp_l" />Cold</label>
+            <label for="temp_m"><input type="radio" name="temp" id="temp_m" />Warm</label>
+            <label for="temp_h"><input type="radio" name="temp" id="temp_h" />Hot</label>
 
 
 
