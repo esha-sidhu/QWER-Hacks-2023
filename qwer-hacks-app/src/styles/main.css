@@ -1,7 +1,33 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lora:wght@700&display=swap');
 
 *{
     font-family:Lora;
-    color:#777;
+    color:black;
 }
+
+
+  
+  h1 {
+    font-family: Lato;
+    background-color: rgba(171, 231, 194, 0.315);
+  }
+  
+  p {
+    font-family: Lato;
+    font-size: 20px;
+  }
+
+label {
+    display: block;
+    }
+    
+    input {
+    width: 30px;
+    margin-left: 20px;
+    }
+    
+    button {
+    width: 100px;
+    margin-top: 20px;
+    }
