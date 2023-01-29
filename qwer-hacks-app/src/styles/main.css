@@ -1,6 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Lora:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Lora:wght@700&display=swap');
 *{
     font-family:Lora;
     color:black;
@@ -8,26 +7,33 @@
 
 
   
-  h1 {
-    font-family: Lato;
+ html h1 {
     background-color: rgba(171, 231, 194, 0.315);
+    margin-left:20px;
   }
   
-  p {
+html h2{
     font-family: Lato;
+    font-weight: 700;
     font-size: 20px;
+    margin-left:50px;
   }
 
-label {
+
+html label {
     display: block;
+    margin-left: 50px;
+    font-family: Lato;
+    font-weight: 400;
     }
     
-    input {
+html  input {
     width: 30px;
-    margin-left: 20px;
+    margin-left: 50px;
     }
     
-    button {
+html  button {
     width: 100px;
     margin-top: 20px;
+    margin-left: 50px;
     }
