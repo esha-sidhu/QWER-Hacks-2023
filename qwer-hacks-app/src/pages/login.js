@@ -22,7 +22,7 @@ function LogIn()
             <div className='loginBlock'>
                 <div className='titleBear'>
                     <span className='delta'>
-                        &ensp; App Name &ensp;
+                        Commie Garden
                     </span>
                 </div>
                 <br></br>
@@ -30,7 +30,7 @@ function LogIn()
                     Sign in with your Google account
                 </div>
                 <br></br>
-                <div>
+                <div id="container">
                     <button onClick={googleLogIn} className='signInButton'>Sign In</button>
                 </div>
             </div>
