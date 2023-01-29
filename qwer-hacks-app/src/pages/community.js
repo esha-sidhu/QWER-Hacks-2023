@@ -4,6 +4,7 @@ import "../styles/div-gallery.css";
 function Community () {
     return (
         <div>
+            <br /> <br /> <br /> <br />
             <div className="responsive">
                 <div className="gallery">
                     <img src={require('../images/brian.jpg')} alt="Garden in Neighborhood" width="518" height="346"/>
