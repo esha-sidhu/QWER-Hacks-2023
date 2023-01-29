@@ -18,6 +18,7 @@ import Recs from "./pages/recs.js";
 import Settings from "./pages/settings.js"
 import Resources from "./pages/resources.js"
 import Navigation from "./shared/navbar.js"
+import Register from './pages/register.js';
 
 function App()
 {
@@ -30,6 +31,7 @@ function App()
                 <Route path = "/recs" element={<Recs />} />
                 <Route path = "/settings" element={<Settings />} />
                 <Route path = "/resources" element={<Resources />} />
+                <Route exact path="/register" element={<Register />} />
             </Routes>
         </BrowserRouter>
     );

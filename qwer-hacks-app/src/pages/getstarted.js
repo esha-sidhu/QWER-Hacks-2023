@@ -14,7 +14,7 @@ function GetStarted () {
       // maybe trigger a loading screen
       return;
     }
-    if (user) navigate("/dashboard");
+    if (user) navigate("/settings");
   }, [user, loading]);
   return (
     <div className="login">
