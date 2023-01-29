@@ -7,10 +7,12 @@ function Recs () {
             <br /> <br /> <br /> <br />
             <h1> Recommendation page </h1>
             <div className="responsive">
-                <div className="gallery">
+            <br />
+                <div className="gallery1">
                     <img src={require("../images/green-beans-cropped.jpg")} alt="Green Beans" width="600" height="400"/>
                 </div>
-                <div className="desc">Recommendation 1: Green Beans
+                <div className="desc1">Recommendation 1: Green Beans
+                <br /> <br />
                 <p>Season: Fall</p>
                 <p>Climate: Cool</p>
                 <p>Soil type: Sticky</p>
@@ -32,10 +34,12 @@ Water thoroughly with a mist nozzle at time of transplanting or seeding.
                 </div>
             </div>
             <div className="responsive">
-                <div className="gallery">
+            <br />
+                <div className="gallery1">
                     <img src={require('../images/lettuce.jpg')} alt="Lettuce" width="600" height="400"/>
                 </div>
-                <div className="desc">Recommendation 2: Lettuce
+                <div className="desc1">Recommendation 2: Lettuce
+                <br /> <br />
                 <p>Season: Fall</p>
                 <p>Climate: Warm</p>
                 <p>Soil type: Sandy</p>
@@ -54,10 +58,12 @@ Practice crop rotation (planting crops in different areas each year) to avoid th
                 </div>
             </div>
             <div className="responsive">
-                <div className="gallery">
+            <br />
+                <div className="gallery1">
                     <img src={require("../images/zucchini-crop.jpg")} alt="Zucchini" width="600" height="400"/>
                 </div>
-                <div className="desc">Recommendation 3: Zucchini
+                <div className="desc1">Recommendation 3: Zucchini
+                <br /> <br />
                 <p>Season: Summer</p>
                 <p>Climate: Warm</p>
                 <p>Soil type: Sticky</p>
