@@ -12,7 +12,7 @@ function Navigation() {
     <nav className="navbar navbar-inverse navbar-fixed-top">
       <div className="container-fluid">
         <ul className="nav navbar-nav">
-          <li><Link to="/">App Name</Link></li>
+          <li><Link to="/get-started">App Name</Link></li>
           <li><Link to="/settings">Settings</Link></li>
           <li><Link to="/recs">Recommendations</Link></li>
           <li><Link to="/community">Community</Link></li>
