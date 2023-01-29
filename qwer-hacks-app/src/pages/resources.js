@@ -3,30 +3,17 @@ import "../styles/resources.css"
 
 function Resources() {
     return (
-        /*
-        <div>
-            <h1> Resources page </h1>
-            <p> Sustainable Farming: </p>
-            <button onClick={document.location = "https://www.active.com/nutrition/articles/how-to-start-a-sustainable-home-garden-2348107"} target="_blank">Home Farming</button>
-            <button onClick={document.location = "https://pulitzercenter.org/stories/how-start-sustainable-farm-project-your-community"} target="_blank" >Community Farming</button>
-            <p> Find Local Food: </p>
-            <button onClick={document.location = "https://findlocalfood.com/"} target="_blank" >Find and Sell Local Food</button>
-            <button onClick={document.location = "https://sustainableagriculture.net/blog/national-guide-to-finding-local-food/"} target="_blank" >National Guide</button>
-            <p> Find Food Banks: </p>
-
-        </div>
-        */
         <div>
             <br /> <br /> <br /> <br />
             <center><h1> Resources page </h1>
             <p> Sustainable Farming: </p>
-            <a target="_blank" href="https://www.active.com/nutrition/articles/how-to-start-a-sustainable-home-garden-2348107" className="button">Home Farming</a> <br/>
-            <a target="_blank" href="https://pulitzercenter.org/stories/how-start-sustainable-farm-project-your-community" className="button"> Community Farming</a>
+            <a target="_blank" href="https://www.active.com/nutrition/articles/how-to-start-a-sustainable-home-garden-2348107" className="button">Home Farming</a> <br></br>
+            <a target="_blank" href="https://pulitzercenter.org/stories/how-start-sustainable-farm-project-your-community" className="button"> Community Farming</a> <br></br>
             <p> Find Local Food: </p>
-            <a target="_blank" href="https://findlocalfood.com/" className="button"> Finder and Seller Tool</a><br />
-            <a target="_blank" href="https://sustainableagriculture.net/blog/national-guide-to-finding-local-food/" className="button"> National Guide to Local Food</a>
+            <a target="_blank" href="https://findlocalfood.com/" className="button"> Finder and Seller Tool</a><br></br>
+            <a target="_blank" href="https://sustainableagriculture.net/blog/national-guide-to-finding-local-food/" className="button"> National Guide to Local Food</a> <br></br>
             <p> Find Food Banks: </p>
-            <a target="_blank" href="https://www.feedingamerica.org/find-your-local-foodbank" className="button">Finder Tool</a>
+            <a target="_blank" href="https://www.feedingamerica.org/find-your-local-foodbank" className="button">Finder Tool</a><br/>
             </center>
         </div >
     );

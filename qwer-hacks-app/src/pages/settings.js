@@ -6,11 +6,11 @@ function Settings () {
     return (
         
         <div>
-            <div class="header">
+            <div className="header">
             <img src={require("../images/plant-header.png")} alt="Plant header" width="100%" height="300">
             </img>
             </div>
-
+            
             <h1> Get To Know You:  </h1>
             
 

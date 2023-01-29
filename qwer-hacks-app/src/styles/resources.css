@@ -1,9 +1,39 @@
-﻿a.button {
+﻿html .resources {
+    background-size: cover;
+    background-image: url("../images/resources_background.jpg");
+}
+
+html .header {
+    margin-top: 0;
+}
+
+html a.button {
     -webkit-appearance: button;
     -moz-appearance: button;
     appearance: button;
     text-decoration: none;
-    border: 2px solid green;
-    background-color: #4cff00;
-    color: initial;
+    background-color: #1B512D;
+    border-radius: 7px;
+    border: 0px solid #764248;
+    color: #08090A;
+    margin: 4px;
+    font-size: 20px;
+    padding: 5px 5px;
+    font-family: "Lato";
+}
+
+html h1 {
+    font-size: 40px;
+}
+
+html p {
+    font-size: 25px;
+    font-family: "Lato";
+    font-weight: 700;
+}
+
+html a.button:hover {
+    background-color: #764248;
+    text-decoration: none;
+    color: #f5e5d5;
 }
