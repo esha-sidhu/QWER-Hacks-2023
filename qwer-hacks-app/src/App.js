@@ -18,6 +18,7 @@ import Recs from "./pages/recs.js";
 import Settings from "./pages/settings.js"
 import Resources from "./pages/resources.js"
 import Navigation from "./shared/navbar.js"
+import LogIn from "./pages/login.js"
 
 function App()
 {
@@ -25,7 +26,7 @@ function App()
         <BrowserRouter>
             <Navigation />
             <Routes>
-                <Route path = "/" element={<GetStarted />} />
+                <Route path = "/" element={<LogIn />} />
                 <Route path = "/community" element={<Community />} />
                 <Route path = "/get-started" element={<GetStarted />} />
                 <Route path = "/recs" element={<Recs />} />
