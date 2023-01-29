@@ -25,6 +25,7 @@ function App()
         <BrowserRouter>
             <Navigation />
             <Routes>
+                <Route path = "/" element={<GetStarted />} />
                 <Route path = "/community" element={<Community />} />
                 <Route path = "/get-started" element={<GetStarted />} />
                 <Route path = "/recs" element={<Recs />} />
@@ -34,6 +35,5 @@ function App()
         </BrowserRouter>
     );
 }
-
 
 export default App;
