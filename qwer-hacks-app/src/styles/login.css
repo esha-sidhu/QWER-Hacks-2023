@@ -3,7 +3,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Lora:wght@700&display=swap');
-
 .login {
     height: 100vh;
     background-image: url("../images/login-background.jpg");
@@ -38,7 +37,7 @@
 
 .delta {
     font-size: 80px;
-    font-family: 'Lora';
+    font-family: 'Cookie';
     color: white;
 }
 
