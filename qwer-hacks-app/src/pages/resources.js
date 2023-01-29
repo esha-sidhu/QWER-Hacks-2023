@@ -17,6 +17,7 @@ function Resources() {
         </div>
         */
         <div>
+            <br /> <br /> <br /> <br />
             <center><h1> Resources page </h1>
             <p> Sustainable Farming: </p>
             <a target="_blank" href="https://www.active.com/nutrition/articles/how-to-start-a-sustainable-home-garden-2348107" className="button">Home Farming</a> <br/>
