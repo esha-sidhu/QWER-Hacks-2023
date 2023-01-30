@@ -1,2 +1,2 @@
 # QWER Hacks 2023
-Submission for QWER Hacks 2023
+Submission for QWER Hacks 2023 - Commie Garden (short for Community Garden), group project that helps users interested in gardening get started; the app generates recommendations of plants to add to their garden (based on previously asked questions in the sign up/settings page); connects users to a community of other beginners, influencers, and gardening pros to get inspiration for their own garden; and provides resources for the user to learn more about food deserts and food insecurity.
